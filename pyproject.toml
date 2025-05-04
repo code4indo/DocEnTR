@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "docentr"
+version = "0.1.0"
+description = "Pytorch implementation of the paper DocEnTr: An End-to-End Document Image Enhancement Transformer"
+authors = ["Mohamed Ali Souibgui <dali.souibgui@gmail.com>", "Sanket Biswas <sanketbiswas16@gmail.com>"] # Placeholder emails, please update if needed
+license = "CC-BY-NC-4.0"
+readme = "README.md"
+packages = [{include = "models"}] # Assuming 'models' is the main package, adjust if needed
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+einops = "0.3.2"
+matplotlib = "3.5.0"
+numpy = "1.21.5"
+opencv-python = "4.5.4.60"
+Pillow = "9.0.0"
+thinc = "8.0.13"
+torch = "*" # Use latest compatible version from PyPI
+torchvision = "*" # Use latest compatible version from PyPI
+tqdm = "4.62.3"
+vit-pytorch = "0.24.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

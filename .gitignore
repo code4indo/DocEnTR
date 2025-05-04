@@ -207,3 +207,14 @@ cython_debug/
 # Sublime project settings
 *.sublime-project
 *.sublime-workspace
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+
+# zip file 
+*.zip
